@@ -81,7 +81,7 @@ A documented investigation of a sanitized training email, focusing on suspicious
 
 - Practiced Capture The Flag (CTF) challenges in web exploitation, cryptography, reverse engineering, binary exploitation, and digital forensics.
 
-**Platform:** [picoCTF](https://picoctf.org/)
+**Platform:** [picoCTF](https://play.picoctf.org/users/Airysairyy_1122)
 
 ---
 
@@ -97,9 +97,9 @@ A documented investigation of a sanitized training email, focusing on suspicious
 
 ## 🤝 Let's Connect
 
-- **GitHub:** [Explore my projects](https://github.com/)
-- **LinkedIn:** [Connect with me](YOUR_LINKEDIN_URL)
-- **TryHackMe:** [View my profile](YOUR_TRYHACKME_PROFILE_URL)
+- **GitHub:** [Explore my projects](https://github.com/SRCybersecurity)
+- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/sejalrathwacybersecurityL)
+- **TryHackMe:** [View my profile](https://tryhackme.com/p/RS77)
 
 ---
 
