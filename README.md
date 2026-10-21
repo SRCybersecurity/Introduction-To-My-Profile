@@ -68,7 +68,7 @@ A documented investigation of a sanitized training email, focusing on suspicious
 - Practiced investigating SIEM alerts involving brute-force attempts, malware, phishing, suspicious PowerShell activity, privilege escalation, and lateral movement.
 - Worked through alert triage, IOC analysis, log correlation, incident documentation, and escalation workflows.
 
-**Platform:** [LetsDefend](https://letsdefend.io/)
+**Platform:** [LetsDefend](https://letsdefend.io/user/RS7777)
 
 ### TryHackMe
 
