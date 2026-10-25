@@ -1,6 +1,6 @@
 # Hi, I'm Rathwa Sejal 👋
 
-### Aspiring Cybersecurity Professional | SOC Analysis | Security Operations
+### Aspiring Cybersecurity Professional | SOC Analyst | Security Engineer
 
 I'm building practical cybersecurity skills through hands-on labs, security investigations, automation, and documented projects.
 
