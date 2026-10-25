@@ -51,6 +51,107 @@ A documented investigation of a sanitized training email, focusing on suspicious
 
 **Repository:** [GitHub Repository](https://github.com/SRCybersecurity/Analysing-Phishing-Emails)
 
+### 3. Network Traffic Analysis with WireShark
+A hands-on network traffic analysis project focused on capturing live network packets, identifying communication protocols, and inspecting data exchanged between devices using **Wireshark**. This project demonstrates practical skills in packet analysis, protocol identification, and network troubleshooting.
+
+**Key Activities**
+- Captured and analyzed live network traffic using Wireshark.
+- Identified and examined protocols such as DNS, TCP, HTTP, TLS, and ICMP.
+- Inspected packet details, including source and destination IP addresses, port numbers, protocols, and timestamps.
+- Analyzed communication between devices to understand network behavior.
+- Documented findings using packet capture evidence and screenshots.
+
+ **Skills:** Network Traffic Analysis, Wireshark, Protocol Analysis, Packet Inspection, Network Troubleshooting, TCP/IP Networking
+
+**Repository:** [GitHub Repository](https://github.com/SRCybersecurity/Network-Traffic-Analysis-with-Wireshark)
+
+### 4. Vulnerability Scanning
+A hands-on security assessment project focused on identifying web application vulnerabilities, evaluating SSL/TLS configurations, reviewing HTTP security headers, and analyzing exposed network services using free security assessment tools.
+
+**Key Activities**
+- Perform an active web application scan using OWASP ZAP to identify potential vulnerabilities and assess associated risks.
+- Analyze SSL/TLS configurations using SSL Server Test to evaluate certificate validity and server security settings.
+- Scan the target domain using SecurityHeaders.com to identify missing or misconfigured HTTP security headers.
+- Use Nmap to discover open ports and identify services running on the target system.
+- Evaluate the security implications of exposed services and recommend reducing the attack surface by closing unnecessary ports and securing required services.
+- Review security header assessment results, including the capped A grade, and identify improvements needed to achieve an A+ rating.
+- Recommend remediation measures for missing Content-Security-Policy (CSP), X-Frame-Options, and X-Content-Type-Options headers.
+- Document recommended security improvements, including HTTPS enforcement, HSTS configuration, and CSP policy review.
+- Compare tool-generated findings with a manually prepared assessment report and document the results.
+
+**Skills:** Vulnerability Assessment, Security Remediation, Web Application Security, SSL/TLS Analysis, HTTP Security Headers, Network Scanning, Attack Surface Analysis, Risk Assessment, Security Reporting
+
+**Repository:** [GitHub Repository](https://github.com/SRCybersecurity/Vulnerability_Scan)
+
+### 5. Local Network Port Scanning and Exposure Analysis
+A hands-on network security project focused on discovering devices on a local network, identifying open ports and running services, and analyzing potential security risks using Nmap and Wireshark.
+
+**Key Activities**
+- Install and verify Nmap on Kali Linux using package management commands.
+- Identify the local IP address and determine the network range to scan.
+- Perform TCP SYN scans using `nmap -sS` to identify open ports on authorized local network devices.
+- Discover active hosts using `nmap -sn` and scan hosts while skipping host discovery with `nmap -Pn`.
+- Record discovered IP addresses, open ports, and associated network services.
+- Capture and analyze network packets using Wireshark with filters such as `tcp`, `udp`, `dns`, `http`, `ssh`, and `tcp.port == 80`.
+- Research common ports and services, including FTP (21), SSH (22), Telnet (23), DNS (53), HTTP (80), HTTPS (443), and NTP (123).
+- Evaluate potential security risks associated with unnecessary, misconfigured, or vulnerable services.
+- Recommend security improvements, including closing unused ports and restricting access to sensitive services.
+
+**Skills:** Network Reconnaissance, Port Scanning, Host Discovery, Network Traffic Analysis, Service Enumeration, Network Security, Risk Assessment, Security Hardening
+**Repository:** [GitHub Repository](https://github.com/SRCybersecurity/Network-Scanning)
+
+### 6. Firewall Configuration and Traffic Filtering
+A hands-on firewall configuration lab focused on creating, testing, and managing firewall rules in Linux and Windows to control network traffic and prevent unauthorized access.
+
+**Key Activities**
+- Configure and enable UFW (Uncomplicated Firewall) on Linux.
+- Inspect existing firewall rules and block inbound traffic on TCP port 23 (Telnet).
+- Test firewall rules using Telnet and Netcat (`nc`).
+- Configure Windows Defender Firewall to block inbound traffic on port 23.
+- Create optional rules to allow SSH traffic on port 22.
+- Remove test rules and restore the original firewall configuration.
+- Document firewall configurations and test results using screenshots.
+
+**Skills:** Firewall Configuration, Network Security, Traffic Filtering, Linux Administration, Windows Security, Network Troubleshooting, Access Control
+
+**Repository:** [GitHub Repository](https://github.com/SRCybersecurity/Configure-and-Test-Firewall-Rules)
+
+### 7. Setup and Test VPN(Proton)
+A hands-on VPN setup and testing project focused on establishing a secure VPN connection, verifying IP address changes, and understanding how VPNs protect online privacy and secure internet communication.
+
+**Key Activities**
+- Choose and install Proton VPN (Free Plan) on a supported operating system.
+- Create an account, log in, and connect to an available VPN server.
+- Verify IP address changes before and after establishing the VPN connection.
+- Test internet connectivity by browsing websites while connected to the VPN.
+- Compare IP addresses and browsing performance before and after disconnecting the VPN.
+- Explore VPN security features, including encryption, DNS leak protection, and the kill switch.
+- Document VPN setup steps, connection status, and testing results using screenshots.
+- Evaluate the benefits and limitations of using a free VPN service.
+
+**Skills:** VPN Configuration, Network Security, Online Privacy, IP Address Verification, Encrypted Communication, DNS Leak Protection, Network Troubleshooting
+
+**Repository:** [GitHub Repository](https://github.com/SRCybersecurity/Setup-and-Test-VPN)
+
+### 8. Practice with NMAP tool.
+A hands-on network scanning project using Nmap (Network Mapper) to discover open ports, identify running services, detect operating systems, and perform basic vulnerability checks on authorized target systems.
+
+**Key Activities**
+- Perform single-host and multiple-host scans to identify active hosts and open ports.
+- Scan specific ports, including 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+- Scan a range of IP addresses to discover hosts and exposed network services.
+- Perform aggressive scanning using the `-A` option to gather OS, service, and additional host information.
+- Conduct UDP port scanning using the `-sU` option.
+- Detect operating systems using the `-O` option.
+- Identify service versions using the `-sV` option.
+- Run vulnerability-related NSE scripts using `--script vulners` to check for known vulnerabilities in detected services.
+- Compare TCP and UDP scanning techniques and understand their differences.
+- Analyze scan results to identify potential security risks and recommend remediation steps.
+
+**Skills:** Network Scanning, Port Enumeration, Service Detection, OS Fingerprinting, Vulnerability Assessment, Network Reconnaissance, Network Security, Security Reporting
+
+**Repository:** [GitHub Repository](https://github.com/SRCybersecurity/NMAP_Practicals)
+
 ---
 
 ## 🏆 Certifications & Training
