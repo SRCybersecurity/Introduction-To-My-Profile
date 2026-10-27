@@ -35,7 +35,7 @@ A security assessment project designed to identify Linux system misconfiguration
 
 **Technologies:** Bash, Python, Linux, CIS Benchmarks
 
-**Repository:** [GitHub Repository](https://github.com/SRCybersecurity/Python-Automation-Tools/tree/Linux_Auditing_Tool)
+**Repository:** [GitHub Repository](https://github.com/SRCybersecurity/Python-Automation-Tools/blob/Linux_Auditing_Tool/Linux%20Hardening%20%26%20Compliance%20Toolkit.md)
 
 ### 2. Phishing Email Investigation Lab
 
