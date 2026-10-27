@@ -188,8 +188,8 @@ A hands-on network scanning project using Nmap (Network Mapper) to discover open
 
 ## 📚 Currently Learning
 
-- Security monitoring and SIEM investigation
-- Incident response and threat hunting fundamentals
+- Developing Security monitoring and SIEM investigation lab (ON GOING)
+- Incident response and threat hunting lab (ON GOING)
 - Linux and Windows security
 - Network traffic analysis
 - Security automation with Bash and Python
