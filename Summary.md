@@ -65,7 +65,24 @@ A hands-on network traffic analysis project focused on capturing live network pa
 
 **Repository:** [GitHub Repository](https://github.com/SRCybersecurity/Network-Traffic-Analysis-with-Wireshark)
 
-### 4. Vulnerability Scanning
+### 4. Local Network Port Scanning and Exposure Analysis
+A hands-on network security project focused on discovering devices on a local network, identifying open ports and running services, and analyzing potential security risks using Nmap and Wireshark.
+
+**Key Activities**
+- Install and verify Nmap on Kali Linux using package management commands.
+- Identify the local IP address and determine the network range to scan.
+- Perform TCP SYN scans using `nmap -sS` to identify open ports on authorized local network devices.
+- Discover active hosts using `nmap -sn` and scan hosts while skipping host discovery with `nmap -Pn`.
+- Record discovered IP addresses, open ports, and associated network services.
+- Capture and analyze network packets using Wireshark with filters such as `tcp`, `udp`, `dns`, `http`, `ssh`, and `tcp.port == 80`.
+- Research common ports and services, including FTP (21), SSH (22), Telnet (23), DNS (53), HTTP (80), HTTPS (443), and NTP (123).
+- Evaluate potential security risks associated with unnecessary, misconfigured, or vulnerable services.
+- Recommend security improvements, including closing unused ports and restricting access to sensitive services.
+
+**Skills:** Network Reconnaissance, Port Scanning, Host Discovery, Network Traffic Analysis, Service Enumeration, Network Security, Risk Assessment, Security Hardening
+**Repository:** [GitHub Repository](https://github.com/SRCybersecurity/Network-Scanning)
+
+### 5. Vulnerability Scanning
 A hands-on security assessment project focused on identifying web application vulnerabilities, evaluating SSL/TLS configurations, reviewing HTTP security headers, and analyzing exposed network services using free security assessment tools.
 
 **Key Activities**
@@ -82,23 +99,6 @@ A hands-on security assessment project focused on identifying web application vu
 **Skills:** Vulnerability Assessment, Security Remediation, Web Application Security, SSL/TLS Analysis, HTTP Security Headers, Network Scanning, Attack Surface Analysis, Risk Assessment, Security Reporting
 
 **Repository:** [GitHub Repository](https://github.com/SRCybersecurity/Vulnerability_Scan)
-
-### 5. Local Network Port Scanning and Exposure Analysis
-A hands-on network security project focused on discovering devices on a local network, identifying open ports and running services, and analyzing potential security risks using Nmap and Wireshark.
-
-**Key Activities**
-- Install and verify Nmap on Kali Linux using package management commands.
-- Identify the local IP address and determine the network range to scan.
-- Perform TCP SYN scans using `nmap -sS` to identify open ports on authorized local network devices.
-- Discover active hosts using `nmap -sn` and scan hosts while skipping host discovery with `nmap -Pn`.
-- Record discovered IP addresses, open ports, and associated network services.
-- Capture and analyze network packets using Wireshark with filters such as `tcp`, `udp`, `dns`, `http`, `ssh`, and `tcp.port == 80`.
-- Research common ports and services, including FTP (21), SSH (22), Telnet (23), DNS (53), HTTP (80), HTTPS (443), and NTP (123).
-- Evaluate potential security risks associated with unnecessary, misconfigured, or vulnerable services.
-- Recommend security improvements, including closing unused ports and restricting access to sensitive services.
-
-**Skills:** Network Reconnaissance, Port Scanning, Host Discovery, Network Traffic Analysis, Service Enumeration, Network Security, Risk Assessment, Security Hardening
-**Repository:** [GitHub Repository](https://github.com/SRCybersecurity/Network-Scanning)
 
 ### 6. Firewall Configuration and Traffic Filtering
 A hands-on firewall configuration lab focused on creating, testing, and managing firewall rules in Linux and Windows to control network traffic and prevent unauthorized access.
